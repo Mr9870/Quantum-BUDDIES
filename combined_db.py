@@ -15,6 +15,7 @@ def create_connection(combined_db):
             user='root',
             password='npol',
             database=combined_db
+
         )
         print(f"Connection to MySQL DB '{combined_db}' successful")
     except Error as e:
